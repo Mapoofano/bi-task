@@ -7,6 +7,7 @@ const chains = [goerli];
 
 const client = createClient(
   getDefaultClient({
+    appName: 'Bi-task',
     chains,
   })
 );
